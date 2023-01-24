@@ -2,5 +2,32 @@ div {
   border: 1px solid grey;
   margin: 5px;
   padding: 5px;
-  
+}
+
+.living-room-div {
+  background-color: darkorchid;
+  color: white;
+}
+
+.bedroom-div {
+  background-color: darkcyan;
+  color: white;
+}
+
+.kitchen-div {
+  background-color: darkgoldenrod;
+  color: white;
+}
+
+.oven-div {
+  background-color: darkred;
+}
+
+.sink-div {
+  background-color: darkgreen;
+}
+
+.bath-div {
+  background-color: darkblue;
+  color: white;
 }

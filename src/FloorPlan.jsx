@@ -8,13 +8,12 @@ function FloorPlan(props) {
   console.log(props);
   return (
     <div className='floor-plan-div'>
-      <h1>Floor Plan</h1>
       <LivingRoom/>
       <Bedroom bedNum={1}/>
-      <Bath size={"Full Bath"}/>
+      <Bath size={"Full"}/>
       <Kitchen/>
       <Bedroom bedNum={2}/>
-      <Bath size={"Half Bath"}/>
+      <Bath size={"Half"}/>
       <Bedroom bedNum={3}/>
     </div>
   )
