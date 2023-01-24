@@ -1,12 +1,13 @@
 import Kitchen from "./Kitchen";
 import LivingRoom from "./LivingRoom";
 import Bedroom from "./Bedroom";
+import Bath from "./Bath";
 
 
 function FloorPlan(props) {
   console.log(props);
   return (
-    <div className='floorPlanContainer'>
+    <div className='floor-plan-div'>
       <h1>Floor Plan</h1>
       <LivingRoom/>
       <Bedroom bedNum={1}/>
