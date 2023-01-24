@@ -1,4 +1,7 @@
-import './App.css'
+import Kitchen from "./Kitchen";
+import LivingRoom from "./LivingRoom";
+import Bedroom from "./Bedroom";
+
 
 function FloorPlan(props) {
   console.log(props);
