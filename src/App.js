@@ -4,7 +4,7 @@ import FloorPlan from './FloorPlan';
 function App() {
   return (
     <div className="div">
-      <FloorPlan/>
+      <FloorPlan />
     </div>
   );
 }
